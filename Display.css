@@ -1,0 +1,43 @@
+.dish-display {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.dish-display h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.display-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.dish {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dish img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.dish h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.dish p {
+    font-size: 0.9em;
+    color: #666;
+}

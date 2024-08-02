@@ -1,0 +1,42 @@
+.logo2{
+    height: 70px;
+    width: 100px;
+}
+.navbar{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    background-color: rgb(163, 157, 157);
+    width: 95%;
+  
+
+
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+   color: blue;
+}
+.navbar-menu .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+
+}
+.navbar-right{
+display: flex;
+align-items: center;
+gap: -10px;
+}
+
+@media(max-width:750px){
+    .navbar-menu{
+        display: none;
+    }
+}
+

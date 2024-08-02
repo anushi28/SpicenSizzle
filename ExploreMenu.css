@@ -1,0 +1,32 @@
+.menu{
+    
+    color: black;
+  font-size: 20px;
+margin-top: 50px;
+    height: 24vw;
+    width: auto;
+    
+
+}
+.explore-menu-list{
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+  overflow: scroll;
+ 
+
+}
+
+.explore-menu-list::-webkit-scrollbar{
+  display: none;
+}
+p{
+  text-align:center ;
+}
+@media(max-width:1050px){
+  .menu{
+    max-width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
+}

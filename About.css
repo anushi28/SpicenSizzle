@@ -1,0 +1,39 @@
+.animationbox{
+    background-image: url('../../assests/cake1.jpeg');
+    height: 250px;
+    width: 500px;
+    animation: slide 10s infinite;
+   
+
+}
+@keyframes slide {
+    25%{
+        background: url('../../assests/cake1.jpeg');
+    }
+    50%{
+        background: url('../../assests/cake2.jpeg');
+    }
+    75%{
+        background: url('../../assests/cake3.jpeg');
+    }
+}
+.about{
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.content{
+    height: 250px;
+    width: 500px;
+}
+@media (max-width:1050px){
+    .about{
+        max-width: 100%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .animationbox{
+        border: 2px solid;
+    }
+}
